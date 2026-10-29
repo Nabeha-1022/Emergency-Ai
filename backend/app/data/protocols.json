@@ -1,0 +1,253 @@
+{
+  "protocols": {
+    "Road Accident": {
+      "description": "Standard operating procedure for road accident emergencies",
+      "steps": {
+        "HIGH": [
+          "Immediately dispatch ambulance to the reported location",
+          "Notify police for traffic management and investigation",
+          "Confirm exact location and nearest landmark",
+          "Ask caller: Are any vehicles on fire or leaking fuel?",
+          "Ask caller: Are any victims trapped inside vehicles?",
+          "Check number of injured people and severity of injuries",
+          "Dispatch fire & rescue if vehicles are trapped or on fire",
+          "Keep caller on line until emergency services arrive",
+          "Notify nearest trauma center / emergency hospital",
+          "Document incident for follow-up and reporting"
+        ],
+        "MEDIUM": [
+          "Dispatch ambulance to the reported location",
+          "Notify police for traffic management",
+          "Confirm exact location and nearest landmark",
+          "Check number of injured people",
+          "Advise caller to keep victims still and not move them",
+          "Keep caller on line until emergency services arrive",
+          "Document incident"
+        ],
+        "LOW": [
+          "Take down location and incident details",
+          "Dispatch police for traffic report",
+          "Advise caller on basic first aid if needed",
+          "Log incident for reporting"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Ambulance", "Police", "Fire & Rescue"],
+        "MEDIUM": ["Ambulance", "Police"],
+        "LOW": ["Police"]
+      },
+      "keywords": ["accident", "crash", "collision", "vehicle", "car", "truck", "motorcycle", "road", "highway", "overturn", "skid", "hit"]
+    },
+    "Medical Emergency": {
+      "description": "Standard operating procedure for medical emergencies",
+      "steps": {
+        "HIGH": [
+          "Immediately dispatch ambulance with advanced life support",
+          "Stay on line with caller",
+          "Ask caller: Is the patient conscious and breathing?",
+          "Guide caller through CPR if patient is not breathing",
+          "Identify patient symptoms and medical history if available",
+          "Confirm exact location and access route",
+          "Alert nearest emergency hospital of incoming patient",
+          "Dispatch paramedic response team if available",
+          "Document all symptoms for hospital handover"
+        ],
+        "MEDIUM": [
+          "Dispatch ambulance to the location",
+          "Identify symptoms and patient condition",
+          "Confirm exact location",
+          "Keep caller on line",
+          "Provide basic first aid instructions to caller",
+          "Document incident"
+        ],
+        "LOW": [
+          "Take down patient details and symptoms",
+          "Advise caller on nearest medical facility",
+          "Dispatch ambulance if warranted",
+          "Log incident"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Ambulance", "Paramedic Team"],
+        "MEDIUM": ["Ambulance"],
+        "LOW": ["Ambulance"]
+      },
+      "keywords": ["heart attack", "cardiac", "unconscious", "breathing", "bleeding", "injury", "injured", "hurt", "pain", "stroke", "seizure", "diabetic", "overdose", "poison", "allergic", "anaphylaxis", "choking", "ambulance", "hospital", "medical", "sick", "collapse", "fell", "fall"]
+    },
+    "Fire": {
+      "description": "Standard operating procedure for fire emergencies",
+      "steps": {
+        "HIGH": [
+          "Immediately dispatch fire & rescue department",
+          "Confirm exact location and building details",
+          "Ask caller: Are any people trapped inside?",
+          "Ask caller: What type of fire (electrical, gas, structural)?",
+          "Notify police for area cordoning and crowd control",
+          "Alert nearest hospital of possible burn victims",
+          "Dispatch ambulance standby",
+          "Contact gas/electricity authority if utility fire",
+          "Establish incident command and coordination",
+          "Keep caller on line and advise evacuation route"
+        ],
+        "MEDIUM": [
+          "Dispatch fire & rescue department",
+          "Confirm exact location",
+          "Ask caller: Is anyone inside the building?",
+          "Notify police if required",
+          "Advise caller on evacuation",
+          "Dispatch ambulance standby",
+          "Document incident"
+        ],
+        "LOW": [
+          "Dispatch fire department",
+          "Confirm location and fire type",
+          "Advise caller on immediate action",
+          "Document incident"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Fire & Rescue", "Police", "Ambulance"],
+        "MEDIUM": ["Fire & Rescue", "Ambulance"],
+        "LOW": ["Fire & Rescue"]
+      },
+      "keywords": ["fire", "smoke", "burning", "flames", "blaze", "explosion", "explode", "burnt", "burn", "arson", "ignite", "flammable", "gas leak"]
+    },
+    "Crime": {
+      "description": "Standard operating procedure for crime-related emergencies",
+      "steps": {
+        "HIGH": [
+          "Immediately dispatch police to the location",
+          "Keep caller calm and on the line",
+          "Advise caller: Do not confront the perpetrator",
+          "Confirm exact location and suspect description",
+          "Ask: Are weapons involved?",
+          "Ask: Are there any injuries?",
+          "Dispatch ambulance if injuries reported",
+          "Alert nearby patrol units for rapid response",
+          "Do not broadcast over public channels if ongoing crime",
+          "Document full incident details"
+        ],
+        "MEDIUM": [
+          "Dispatch police to the location",
+          "Confirm location and incident details",
+          "Advise caller to stay safe and not engage suspect",
+          "Ask for suspect description",
+          "Dispatch ambulance if injuries reported",
+          "Document incident"
+        ],
+        "LOW": [
+          "Take down incident report details",
+          "Dispatch police unit",
+          "Advise caller on reporting procedure",
+          "Log incident"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Police", "Ambulance"],
+        "MEDIUM": ["Police"],
+        "LOW": ["Police"]
+      },
+      "keywords": ["robbery", "theft", "stolen", "attack", "assault", "violence", "weapon", "gun", "knife", "murder", "stabbing", "shooting", "break-in", "burglary", "rape", "kidnap", "abduct", "threat", "crime", "criminal"]
+    },
+    "Missing Person": {
+      "description": "Standard operating procedure for missing person reports",
+      "steps": {
+        "HIGH": [
+          "Dispatch police for immediate search",
+          "Gather full description: age, appearance, last seen location/time",
+          "Check if vulnerable person (child, elderly, disability)",
+          "Issue AMBER/SILVER alert if applicable",
+          "Coordinate with hospitals and shelters",
+          "Alert nearby patrol units",
+          "Document full details including photos if available",
+          "Contact family members for additional information"
+        ],
+        "MEDIUM": [
+          "File missing person report",
+          "Dispatch police unit",
+          "Gather full description and last known location",
+          "Alert patrol units in the area",
+          "Document incident"
+        ],
+        "LOW": [
+          "Take down missing person details",
+          "File official report",
+          "Advise caller on reporting procedure",
+          "Log incident"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Police", "Search & Rescue"],
+        "MEDIUM": ["Police"],
+        "LOW": ["Police"]
+      },
+      "keywords": ["missing", "disappeared", "lost", "not found", "cannot find", "gone", "abducted", "kidnapped", "runaway", "child missing"]
+    },
+    "Natural Disaster": {
+      "description": "Standard operating procedure for natural disasters",
+      "steps": {
+        "HIGH": [
+          "Activate emergency management protocol",
+          "Dispatch search & rescue teams",
+          "Notify disaster management authority",
+          "Coordinate with multiple emergency services",
+          "Establish emergency command center",
+          "Deploy medical teams and field hospitals",
+          "Issue public safety alerts",
+          "Coordinate evacuation if necessary",
+          "Request mutual aid from neighboring districts",
+          "Document all actions and resources deployed"
+        ],
+        "MEDIUM": [
+          "Dispatch emergency response teams",
+          "Notify relevant disaster authorities",
+          "Assess scope of disaster",
+          "Dispatch ambulance and rescue teams as needed",
+          "Document incident"
+        ],
+        "LOW": [
+          "Document incident report",
+          "Dispatch appropriate services",
+          "Monitor situation for escalation"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Search & Rescue", "Ambulance", "Police", "Fire & Rescue", "Disaster Management"],
+        "MEDIUM": ["Search & Rescue", "Ambulance", "Police"],
+        "LOW": ["Police", "Ambulance"]
+      },
+      "keywords": ["earthquake", "flood", "flooding", "cyclone", "hurricane", "tornado", "tsunami", "landslide", "storm", "disaster", "natural", "collapsed building", "building collapse", "trapped"]
+    },
+    "Other Emergency": {
+      "description": "General emergency response protocol",
+      "steps": {
+        "HIGH": [
+          "Assess situation carefully",
+          "Dispatch appropriate emergency services",
+          "Keep caller on line",
+          "Confirm location and nature of emergency",
+          "Document all details",
+          "Escalate to supervisor if required"
+        ],
+        "MEDIUM": [
+          "Assess situation",
+          "Dispatch appropriate services",
+          "Confirm location",
+          "Document incident"
+        ],
+        "LOW": [
+          "Take down incident details",
+          "Advise caller appropriately",
+          "Dispatch services if warranted",
+          "Log incident"
+        ]
+      },
+      "recommended_services": {
+        "HIGH": ["Police", "Ambulance"],
+        "MEDIUM": ["Police"],
+        "LOW": ["Police"]
+      },
+      "keywords": ["emergency", "help", "danger", "urgent", "sos"]
+    }
+  }
+}

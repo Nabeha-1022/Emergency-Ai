@@ -1,0 +1,12 @@
+fastapi==0.103.2
+uvicorn[standard]==0.22.0
+pydantic<2
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.24.1
+tinydb==4.8.0
+python-dotenv==0.21.1
+# Optional heavy deps removed for faster local demo startup
+# torch           # Required for whisper/transformers
+# transformers    # Uncomment for real Transformer intent classification
